@@ -50,4 +50,4 @@ agency-research/
 
 ## Distribution
 
-Use `python3 scripts/package_plugin.py` to create `dist/agency-research.zip`. Licensing and commercial terms are intentionally not inferred by the repository tooling.
+Use `python3 scripts/package_plugin.py` to create `dist/agency-research.zip`. The package contains the dual-platform manifests, public README, and runtime skill only; maintenance docs, tests, and build tooling stay in the repository. Licensing and commercial terms are intentionally not inferred by the repository tooling.
