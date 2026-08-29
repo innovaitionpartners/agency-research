@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "dist"
 OUTPUT_PATH = OUTPUT_DIR / "agency-research.zip"
 EXCLUDED_PREFIXES = ("docs/", "evals/", "tests/", "dist/")
-EXCLUDED_FILES = {"AGENTS.md"}
+EXCLUDED_FILES = {".gitignore", "AGENTS.md", "scripts/package_plugin.py"}
 
 
 def tracked_runtime_files() -> list[Path]:
