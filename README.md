@@ -16,7 +16,7 @@ Agency Research is an InnovAItion Partners plugin for readable, source-verified 
 
 - `research-with-receipts` — adaptive public-web research with claim-adjacent, parenthetical receipts.
 
-The skill's trigger description is intentionally broad for customers who install the plugin. Maintainers should test from this repository or an isolated plugin session rather than installing it in a personal always-on skill registry.
+The skill's trigger description is intentionally broad for isolated product testing. Maintainers should test from this repository or an isolated plugin session rather than installing it in a personal always-on skill registry.
 
 ## Local testing
 
@@ -48,6 +48,6 @@ agency-research/
   docs/
 ```
 
-## Distribution
+## Controlled packaging
 
-Use `python3 scripts/package_plugin.py` to create `dist/agency-research.zip`. The package contains the dual-platform manifests, public README, and runtime skill only; maintenance docs, tests, and build tooling stay in the repository. Licensing and commercial terms are intentionally not inferred by the repository tooling.
+Use `python3 scripts/package_plugin.py` to create `dist/agency-research.zip` for private testing or a specifically approved controlled deployment. The package contains the dual-platform manifests, README, and runtime skill only; maintenance docs, tests, and build tooling stay in the repository. This repository and its packages are not approved for public release or external distribution.
