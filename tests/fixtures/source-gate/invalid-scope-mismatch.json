@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scope": {"date_start": "2026-02-28", "date_end": "2026-08-28", "geography": "United States", "excluded_source_types": []},
+  "claims": [{"id": "C1", "text": "A U.S. claim.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}],
+  "sources": [{"id": "S1", "title": "France report", "publisher": "Acme", "publication_date": "2026-08-01", "url": "https://example.com/france", "source_type": "government", "opened": true, "access": "full", "evidence": "The report covers France only.", "scope_match": "mismatch", "scope_note": "France only; requested geography is United States.", "limitations": "Wrong jurisdiction.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "Adjacent evidence."}]
+}

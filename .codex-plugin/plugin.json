@@ -1,0 +1,27 @@
+{
+  "name": "agency-research",
+  "version": "0.1.0",
+  "description": "Source-verified public-web research for agency teams, with readable reports and receipts beside every consequential claim.",
+  "author": {
+    "name": "InnovAItion Partners",
+    "url": "https://github.com/innovaitionpartners"
+  },
+  "homepage": "https://github.com/innovaitionpartners/agency-research",
+  "repository": "https://github.com/innovaitionpartners/agency-research",
+  "keywords": ["research", "citations", "sources", "agencies", "evidence"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agency Research",
+    "shortDescription": "Readable public-web research with verified receipts",
+    "longDescription": "Research questions, comparisons, trends, and reports using opened public sources, explicit evidence limits, and citations placed beside the claims they support.",
+    "developerName": "InnovAItion Partners",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/innovaitionpartners/agency-research",
+    "defaultPrompt": [
+      "Research a market trend and show me the receipts.",
+      "Create a sourced report on this topic.",
+      "Compare these options using verified public evidence."
+    ]
+  }
+}

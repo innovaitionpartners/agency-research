@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scope": {"date_start": "2026-01-01", "date_end": "2026-08-28", "geography": "Global", "excluded_source_types": [], "research_shape": "multi_question", "breadth_exception": ""},
+  "claims": [{"id": "C1", "text": "A supported conclusion appears here.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}],
+  "sources": [{"id": "S1", "title": "Example rule", "publisher": "Acme Agency", "publication_date": "2026-07-15", "url": "https://example.com/rule", "source_type": "regulator", "opened": true, "access": "full", "evidence": "The rule directly supports the conclusion.", "scope_match": "match", "scope_note": "Applies to the approved scope.", "limitations": "None material for the stated claim.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "Controlling source for C1."}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scope": {"date_start": null, "date_end": null, "geography": "Global", "excluded_source_types": []},
+  "claims": [{"id": "C1", "text": "A claim.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}],
+  "sources": [{"id": "S1", "title": "Paywalled report", "publisher": "Acme", "publication_date": "2026-08-01", "url": "https://example.com/paywall", "source_type": "academic", "opened": true, "access": "inaccessible", "evidence": "Only the abstract or landing page was accessible.", "scope_match": "match", "scope_note": "Global.", "limitations": "Substantive evidence is inaccessible.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "The title appears relevant."}]
+}

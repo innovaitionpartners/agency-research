@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scope": {"date_start": "2026-02-28", "date_end": "2026-08-28", "geography": "Global", "excluded_source_types": []},
+  "claims": [{"id": "C1", "text": "A current claim.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}],
+  "sources": [{"id": "S1", "title": "Old report", "publisher": "Acme", "publication_date": "2024-08-01", "url": "https://example.com/old-report", "source_type": "academic", "opened": true, "access": "full", "evidence": "The old report contains a related statistic.", "scope_match": "match", "scope_note": "Global.", "limitations": "Older than the confirmed range.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "Related evidence."}]
+}

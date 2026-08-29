@@ -1,0 +1,104 @@
+{
+  "skill_name": "research-with-receipts",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "quick-current-policy",
+      "prompt": "Quick research: Can a Slack Free workspace access messages older than 90 days, and what happens to messages after one year? Give me receipts.",
+      "expected_output": "A concise Quick answer grounded in opened current Slack documentation, with claim-adjacent descriptive links and visible limits.",
+      "expectations": [
+        "Selects Quick depth without imposing a source-count target.",
+        "Opens and cites direct current Slack documentation rather than a search result.",
+        "Places title, publisher, displayed date or date-not-shown, and direct URL beside each supported claim.",
+        "Creates a candidate-source ledger, passes the source-admission gate before drafting, and cites only approved use sources.",
+        "Asks geography without inference, permits Not applicable, and avoids immaterial recency or source-exclusion intake.",
+        "Records whether corroboration and disconfirmation were needed before delivery.",
+        "States material plan or version ambiguity rather than guessing."
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "standard-product-comparison",
+      "prompt": "Compare the current privacy and retention controls in Otter.ai and Zoom AI Companion for a 50-person professional-services firm. Recommend which has the safer default posture, with receipts.",
+      "expected_output": "Before retrieval, the skill first asks the user to choose the depth, then asks one boundary question per response or structured-question call: recency, geography without inference, then source exclusions. The subsequent comparison uses plain-language bullets, separates official product claims from inference, investigates material gaps, and cites each recommendation's factual basis in parentheses.",
+      "expectations": [
+        "The first intake asks only how deep to go and plainly explains Quick scan, Standard brief, Deep report, and a delegated-choice option.",
+        "After depth is resolved, the next intake asks only how recently to look and offers Past 30 days, Past 6 months, Past year, and a custom range through Another range or the structured tool's automatic Other.",
+        "The following intake response asks geography separately and does not infer or emphasize a region.",
+        "The final intake asks source exclusions separately and uses multi-select when a structured question tool is available.",
+        "Builds a coverage plan suited to the requested comparison and uses distinct Authority, Scope, Freshness, and Challenge lanes where they can change the recommendation.",
+        "Uses current first-party policy or technical pages and rejects mismatched plan or version evidence.",
+        "Runs a disconfirming route for the decision-driving conclusion.",
+        "Labels the final recommendation as inference or judgment.",
+        "Uses descriptive sections and substantive plain-language bullets rather than long paragraphs.",
+        "Places every descriptive receipt after the sentence or bullet it supports, inside parentheses.",
+        "Passes both the candidate-source admission gate and the final answer-and-record validator."
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "eval_name": "deep-plan-break-and-execution",
+      "prompt": "Deep research the U.S. state laws governing automated decision tools in hiring. I need a report for a multistate employer, but check the research frame with me before you start.",
+      "expected_output": "After sequential intake, the next response contains only a Research Frame. After approval, a Deep report uses jurisdictional, authority, challenge, and freshness lanes and transparently handles enactment status and conflicts.",
+      "expectations": [
+        "After intake controls are resolved, the next response is the staged Research Frame and pauses before substantial retrieval.",
+        "Sequential recency, geography, and source-exclusion intake occurs before the frame.",
+        "The frame confirms date range, geography or jurisdiction, source exclusions, question families, disconfirming routes, and completion criteria.",
+        "Post-approval execution maintains a claim-evidence-gap record and merges discovery before targeted follow-up.",
+        "Distinguishes enacted law, effective dates, regulations, proposals, and superseding authority.",
+        "Independently rechecks consequential claims and passes both deterministic validators."
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "eval_name": "insufficient-public-evidence",
+      "prompt": "Find verified 2025 revenue for five independent U.S. PR agencies with fewer than 50 employees. Use only public sources and give me receipts.",
+      "expected_output": "The skill does not substitute estimates, directories, or adjacent company facts for unavailable verified revenue and plainly declares unsupported slots.",
+      "expectations": [
+        "Searches relevant public authority and company-source lanes before concluding insufficiency.",
+        "Writes No adequate source found for each unsupported requested revenue figure.",
+        "Labels estimates or anecdotal directory figures and does not present them as verified revenue.",
+        "Records unsupported claims as ledger gaps and prevents rejected or context-only candidates from becoming citations.",
+        "Explains what proprietary filing, interview, or expert method would be needed.",
+        "Does not pad the answer to reach five agencies."
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "eval_name": "supplied-source-routing",
+      "prompt": "Here is my draft and three PDFs. Fact-check every statement only against those PDFs and do not use the web.",
+      "expected_output": "The skill identifies a supplied-source audit, honors the no-web constraint, and routes by capability without naming a private or potentially uninstalled sibling skill.",
+      "expectations": [
+        "Does not browse the web.",
+        "Explains the supplied-source-audit boundary.",
+        "Offers to perform or route the bounded audit by capability.",
+        "Does not mention fact-checker or another environment-specific skill name."
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "eval_name": "primary-source-access-fallback",
+      "prompt": "Use Standard-depth Research With Receipts to research U.S. marketing-agency adoption of AI during the past six months, excluding social posts. During discovery, the identified original report page times out through the initial web-fetch route. Continue using the capabilities available in the host and give me receipts.",
+      "expected_output": "The researcher treats the timeout as an access-route failure, tries a distinct available browser route or official alternate endpoint, and never launders an unseen original claim through articles that merely repeat it.",
+      "expectations": [
+        "Retries the direct original page at most once before switching to a distinct available access capability.",
+        "Tries an interactive browser, browser automation, command-line browser, or official first-party alternate endpoint when the host provides one.",
+        "Records the routes attempted and final outcome in the Access escalation execution-record field.",
+        "Does not count multiple articles repeating the same original source as independent corroboration.",
+        "If the original remains inaccessible, rejects it and either supports a narrower claim from genuinely inspected evidence or records No adequate source found for the dependent claim.",
+        "Does not use secondary coverage to support the unseen original's metric; admits only distinct facts or analysis established by the opened secondary page itself.",
+        "For this broad landscape, uses at least five genuinely distinct usable sources across at least three evidence classes unless it explicitly reports that public evidence cannot support that breadth.",
+        "Does not count several pages descended from the same underlying report as distinct evidence.",
+        "Covers quantitative scale plus qualitative patterns, concrete examples or operating practices, barriers, and practical takeaways where the evidence supports them.",
+        "Uses descriptive sections and several evidence-bearing bullets per material theme; bullets improve scanning without reducing the report to a thin summary.",
+        "Uses familiar language and puts each receipt at the end of its supported sentence or bullet, inside parentheses."
+      ],
+      "files": []
+    }
+  ]
+}

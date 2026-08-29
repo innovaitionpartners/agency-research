@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scope": {"date_start": null, "date_end": null, "geography": "Global", "excluded_source_types": []},
+  "claims": [{"id": "C1", "text": "A current claim.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}],
+  "sources": [{"id": "S1", "title": "Old policy", "publisher": "Acme", "publication_date": "2026-01-01", "url": "https://example.com/old-policy", "source_type": "company_documentation", "opened": true, "access": "full", "evidence": "The page states an older policy.", "scope_match": "match", "scope_note": "Global.", "limitations": "A newer policy replaces it.", "superseded": true, "date_exception": "", "verdict": "use", "verdict_reason": "Older direct documentation."}]
+}

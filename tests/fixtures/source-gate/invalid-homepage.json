@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scope": {"date_start": null, "date_end": null, "geography": "Global", "excluded_source_types": []},
+  "claims": [{"id": "C1", "text": "A claim.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}],
+  "sources": [{"id": "S1", "title": "Acme home", "publisher": "Acme", "publication_date": "date not shown", "url": "https://example.com/", "source_type": "company_statement", "opened": true, "access": "full", "evidence": "The homepage contains general marketing language.", "scope_match": "match", "scope_note": "Global.", "limitations": "Homepage rather than a claim-specific page.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "General company context."}]
+}

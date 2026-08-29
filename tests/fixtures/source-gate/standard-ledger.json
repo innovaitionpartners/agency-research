@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scope": {"date_start": null, "date_end": null, "geography": "Global", "excluded_source_types": [], "research_shape": "comparison", "breadth_exception": ""},
+  "claims": [{"id": "C1", "text": "A supported comparison appears here.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}],
+  "sources": [{"id": "S1", "title": "Example controls", "publisher": "Acme Agency", "publication_date": "date not shown", "url": "https://example.com/controls", "source_type": "company_documentation", "opened": true, "access": "full", "evidence": "The page documents the control used in the comparison.", "scope_match": "match", "scope_note": "Applies to the compared plan.", "limitations": "First-party control documentation.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "Direct source for C1."}]
+}

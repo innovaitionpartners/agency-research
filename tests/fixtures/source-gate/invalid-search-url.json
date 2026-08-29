@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scope": {"date_start": "2026-02-28", "date_end": "2026-08-28", "geography": "United States", "excluded_source_types": []},
+  "claims": [{"id": "C1", "text": "A claim.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}],
+  "sources": [{"id": "S1", "title": "Search result", "publisher": "Google", "publication_date": "date not shown", "url": "https://www.google.com/search?q=acme", "source_type": "other", "opened": true, "access": "full", "evidence": "A snippet repeats the claim.", "scope_match": "match", "scope_note": "U.S.", "limitations": "Search result only.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "Used as evidence."}]
+}

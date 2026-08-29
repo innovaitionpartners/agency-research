@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "scope": {
+    "date_start": null,
+    "date_end": null,
+    "geography": "Global",
+    "excluded_source_types": [],
+    "research_shape": "broad_landscape",
+    "breadth_exception": ""
+  },
+  "claims": [
+    {"id": "C1", "text": "One source cannot support this broad landscape.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}
+  ],
+  "sources": [
+    {"id": "S1", "title": "Example controls", "publisher": "Acme Agency", "publication_date": "date not shown", "url": "https://example.com/controls", "source_type": "company_documentation", "evidence_lineage": "Acme controls study", "opened": true, "access": "full", "evidence": "The page documents one control.", "scope_match": "match", "scope_note": "Applies to the example scope.", "limitations": "One source cannot establish a landscape.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "Direct source for C1."}
+  ]
+}

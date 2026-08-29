@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "scope": {"date_start": null, "date_end": null, "geography": "Global", "excluded_source_types": []},
+  "claims": [
+    {"id": "C1", "text": "First claim.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""},
+    {"id": "C2", "text": "Second claim.", "kind": "fact", "status": "supported", "source_ids": ["S2"], "qualification": ""}
+  ],
+  "sources": [
+    {"id": "S1", "title": "Report", "publisher": "Acme", "publication_date": "2026-08-01", "url": "https://example.com/report", "source_type": "academic", "opened": true, "access": "full", "evidence": "Evidence one.", "scope_match": "match", "scope_note": "Global.", "limitations": "None material.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "Supports C1."},
+    {"id": "S2", "title": "Report duplicate", "publisher": "Acme", "publication_date": "2026-08-01", "url": "https://example.com./report", "source_type": "academic", "opened": true, "access": "full", "evidence": "Evidence two.", "scope_match": "match", "scope_note": "Global.", "limitations": "None material.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "Supports C2."}
+  ]
+}

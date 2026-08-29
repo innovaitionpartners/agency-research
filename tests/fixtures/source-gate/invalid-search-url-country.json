@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scope": {"date_start": null, "date_end": null, "geography": "United Kingdom", "excluded_source_types": []},
+  "claims": [{"id": "C1", "text": "A claim.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}],
+  "sources": [{"id": "S1", "title": "Search result", "publisher": "Google", "publication_date": "date not shown", "url": "https://www.google.co.uk/search?q=acme", "source_type": "other", "opened": true, "access": "full", "evidence": "A snippet repeats the claim.", "scope_match": "match", "scope_note": "United Kingdom.", "limitations": "Search result only.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "Used as evidence."}]
+}

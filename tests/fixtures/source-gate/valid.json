@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "scope": {
+    "date_start": "2026-02-28",
+    "date_end": "2026-08-28",
+    "geography": "United States",
+    "excluded_source_types": ["press_release"]
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "text": "Acme's current policy applies to the relevant U.S. plan.",
+      "kind": "fact",
+      "status": "supported",
+      "source_ids": ["S1"],
+      "qualification": ""
+    },
+    {
+      "id": "C2",
+      "text": "An older controlling document remains relevant.",
+      "kind": "fact",
+      "status": "supported",
+      "source_ids": ["S2"],
+      "qualification": "The document predates the research window but remains controlling."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Example policy",
+      "publisher": "Acme Agency",
+      "publication_date": "2026-08-01",
+      "url": "https://example.com/policy",
+      "source_type": "company_documentation",
+      "opened": true,
+      "access": "full",
+      "evidence": "The policy page identifies the current plan and its U.S. applicability.",
+      "scope_match": "match",
+      "scope_note": "Current U.S. plan documentation.",
+      "limitations": "First-party documentation establishes policy, not outcomes.",
+      "superseded": false,
+      "date_exception": "",
+      "verdict": "use",
+      "verdict_reason": "Direct current documentation for claim C1."
+    },
+    {
+      "id": "S2",
+      "title": "Controlling standard",
+      "publisher": "Acme Standards Board",
+      "publication_date": "2024-01-15",
+      "url": "https://example.com/standard",
+      "source_type": "standards_body",
+      "opened": true,
+      "access": "full",
+      "evidence": "The standard remains the currently controlling text.",
+      "scope_match": "match",
+      "scope_note": "Applies to the requested U.S. context.",
+      "limitations": "Published before the confirmed discovery window.",
+      "superseded": false,
+      "date_exception": "Older than the discovery window but still controlling; freshness search found no replacement.",
+      "verdict": "use",
+      "verdict_reason": "Controlling authority for claim C2."
+    }
+  ]
+}

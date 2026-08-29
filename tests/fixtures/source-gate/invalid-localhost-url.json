@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scope": {"date_start": null, "date_end": null, "geography": "Global", "excluded_source_types": []},
+  "claims": [{"id": "C1", "text": "A claim.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}],
+  "sources": [{"id": "S1", "title": "Policy", "publisher": "Example", "publication_date": "2026-08-01", "url": "http://localhost/policy", "source_type": "company_documentation", "opened": true, "access": "full", "evidence": "A local page states the policy.", "scope_match": "match", "scope_note": "Local only.", "limitations": "Not public evidence.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "Mistakenly admitted."}]
+}
