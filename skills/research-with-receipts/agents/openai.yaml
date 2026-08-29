@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research With Receipts"
+  short_description: "Adaptive research with claim-level source receipts"
+  default_prompt: "Use $research-with-receipts to research this task at the appropriate depth and cite every consequential claim."

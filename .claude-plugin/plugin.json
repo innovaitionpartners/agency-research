@@ -1,0 +1,17 @@
+{
+  "name": "agency-research",
+  "version": "0.1.0",
+  "description": "Source-verified public-web research for agency teams, with readable reports and receipts beside every consequential claim.",
+  "author": {
+    "name": "InnovAItion Partners"
+  },
+  "homepage": "https://github.com/innovaitionpartners/agency-research",
+  "repository": "https://github.com/innovaitionpartners/agency-research",
+  "keywords": [
+    "research",
+    "citations",
+    "sources",
+    "agencies",
+    "evidence"
+  ]
+}

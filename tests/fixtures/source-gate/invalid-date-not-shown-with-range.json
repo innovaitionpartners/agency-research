@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scope": {"date_start": "2026-07-29", "date_end": "2026-08-28", "geography": "Global", "excluded_source_types": []},
+  "claims": [{"id": "C1", "text": "A current claim.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}],
+  "sources": [{"id": "S1", "title": "Undated policy", "publisher": "Example", "publication_date": "date not shown", "url": "https://example.com/undated-policy", "source_type": "company_documentation", "opened": true, "access": "full", "evidence": "The page states the policy.", "scope_match": "match", "scope_note": "Global.", "limitations": "No publication date is displayed.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "Direct statement."}]
+}

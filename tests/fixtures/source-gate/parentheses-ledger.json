@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scope": {"date_start": "2026-07-29", "date_end": "2026-08-28", "geography": "Global", "excluded_source_types": []},
+  "claims": [{"id": "C1", "text": "A supported claim appears here.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}],
+  "sources": [{"id": "S1", "title": "Example policy (revised)", "publisher": "Acme Agency", "publication_date": "2026-08-01", "url": "https://example.com/policy_(revised)", "source_type": "company_documentation", "opened": true, "access": "full", "evidence": "The page directly states the revised policy.", "scope_match": "match", "scope_note": "Applies globally.", "limitations": "First-party policy documentation.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "Direct source for C1."}]
+}

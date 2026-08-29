@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "scope": {"date_start": "2026-02-28", "date_end": "2026-08-28", "geography": "Global", "excluded_source_types": []},
+  "claims": [{"id": "C1", "text": "A claim published within the research window.", "kind": "fact", "status": "supported", "source_ids": ["S1"], "qualification": ""}],
+  "sources": [{"id": "S1", "title": "Monthly report", "publisher": "Example Institute", "publication_date": "July 2026", "url": "https://example.com/monthly-report", "source_type": "nonprofit", "opened": true, "access": "full", "evidence": "The report directly supports the claim.", "scope_match": "match", "scope_note": "Its stated month falls wholly inside the confirmed range.", "limitations": "The publisher displays only month-level date precision.", "superseded": false, "date_exception": "", "verdict": "use", "verdict_reason": "Applicable evidence for C1."}]
+}
