@@ -1,6 +1,6 @@
 # Agency Research
 
-This repository is the source of truth for the **Agency Research** public plugin from InnovAItion Partners.
+This private repository is the source of truth for the externally distributed **Agency Research** plugin from InnovAItion Partners.
 
 ## Product boundary
 
