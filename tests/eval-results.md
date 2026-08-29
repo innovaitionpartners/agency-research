@@ -2,7 +2,7 @@
 
 ## 2026-08-28 — Agency Research standalone plugin migration
 
-Research With Receipts moved from the shared always-on InnovAItion Partners skill registry into the standalone private `agency-research` source repository. The distributable plugin may be shared externally without exposing its source repository. The skill description was preserved exactly, while internal `answer slots` terminology became a flexible `coverage plan` that follows the requested deliverable rather than forcing reports into question-and-answer form. Claude and Codex plugin manifests validate, Skill Creator validation passes, and the complete deterministic fixture suite passes from repository-local paths. The active copies were removed from Sally's Claude, Codex, and Agent skill registries; maintainers test through an explicit path or isolated plugin session.
+Research With Receipts moved from the shared always-on InnovAItion Partners skill registry into the standalone private `agency-research` repository. The plugin is not approved for public release or external distribution. The skill description was preserved exactly, while internal `answer slots` terminology became a flexible `coverage plan` that follows the requested deliverable rather than forcing reports into question-and-answer form. Claude and Codex plugin manifests validate, Skill Creator validation passes, and the complete deterministic fixture suite passes from repository-local paths. The active copies were removed from Sally's Claude, Codex, and Agent skill registries; maintainers test through an explicit path or isolated plugin session.
 
 ## 2026-08-28 — Reader-first substance correction
 
@@ -83,6 +83,6 @@ Five independent evaluators received only the runtime skill path and a realistic
 ## Limitations
 
 - Live facts and source availability will change; these evals test behavior and evidence fit as of the run date, not permanent conclusions.
-- The public distribution ZIP and landing-page copy do not exist yet.
+- No public distribution or landing page is planned.
 - No Suits variant or Suits-runtime test was attempted for V1.
 - The initial runtime is deployed. The Ultra remediation remains on isolated local branches until Sally separately authorizes push/merge.
