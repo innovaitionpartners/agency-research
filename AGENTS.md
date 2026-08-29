@@ -1,14 +1,14 @@
 # Agency Research
 
-This private repository is the source of truth for the externally distributed **Agency Research** plugin from InnovAItion Partners.
+This private repository is the source of truth for the private **Agency Research** plugin from InnovAItion Partners. It is not approved for public release or external distribution.
 
 ## Product boundary
 
 - Plugin and repository name: `agency-research`.
-- Public display name: **Agency Research**.
+- Product name: **Agency Research**.
 - First bundled skill: `research-with-receipts`.
 - Preserve the skill's frontmatter description unless a deliberate trigger redesign is approved.
-- This is a customer product, not Sally's personal research skill. Do not install or symlink it into `/Users/sally/.agents/skills/` or `/Users/sally/.codex/skills/` for routine development.
+- This is a standalone private product, not Sally's personal research skill. Do not install or symlink it into `/Users/sally/.agents/skills/` or `/Users/sally/.codex/skills/` for routine development.
 - Test through an explicit repository path, `claude --plugin-dir`, a temporary plugin profile, or a fresh-context evaluator.
 
 ## Runtime and maintenance separation

@@ -2,9 +2,9 @@
 
 ## Product decision
 
-Research With Receipts is a free public adaptive-research skill. It is not limited to one question, a short answer, or a fixed source count. It asks the user to choose `quick`, `standard`, or `deep` when those choices would materially change the work, while enforcing the same source and citation contract at every depth.
+Research With Receipts is a private adaptive-research skill within the Agency Research plugin. It is not limited to one question, a short answer, or a fixed source count. It asks the user to choose `quick`, `standard`, or `deep` when those choices would materially change the work, while enforcing the same source and citation contract at every depth.
 
-**Public name:** Research With Receipts
+**Skill name:** Research With Receipts
 
 **Tagline:** Research at the depth the task deserves. Receipts for every claim that matters.
 
@@ -52,8 +52,8 @@ Source types are not inherently credible or noncredible. Press releases and vend
 
 ## Boundaries and routing
 
-- A draft checked against supplied sources routes by capability to a supplied-source audit; the public skill does not name or depend on a sibling skill.
-- Transcript/background inventory and audience-specific content-gap filling routes by capability; the public skill does not name or depend on an internal implementation.
+- A draft checked against supplied sources routes by capability to a supplied-source audit; the skill does not name or depend on a sibling skill.
+- Transcript/background inventory and audience-specific content-gap filling routes by capability; the skill does not name or depend on an internal implementation.
 - Primary interviews, inaccessible proprietary data, or definitive professional advice remain out of scope.
 - High-stakes legal, medical, financial, regulatory, or safety work requires current authoritative sources, stronger corroboration, explicit limitations, and professional review where appropriate.
 
@@ -65,7 +65,7 @@ There is no detached bibliography by default. A source index is permitted only f
 
 ## Packaging
 
-The public package is standalone and portable. `SKILL.md` retains the load-bearing receipts contract and routing. Focused references supply Standard/Deep search-lane craft and the strict source-ledger schema; an optional agent brief defines bounded parallel-lane evidence handoffs. One standard-library script validates source admission before synthesis, and the output validator binds final citations to that approved ledger. Neither script claims semantic source truth. Evals and fixtures remain in the maintenance sidecar rather than the shipped folder.
+The private package is standalone and portable for isolated testing or a specifically approved controlled deployment. `SKILL.md` retains the load-bearing receipts contract and routing. Focused references supply Standard/Deep search-lane craft and the strict source-ledger schema; an optional agent brief defines bounded parallel-lane evidence handoffs. One standard-library script validates source admission before synthesis, and the output validator binds final citations to that approved ledger. Neither script claims semantic source truth. Evals and fixtures remain outside the packaged runtime.
 
 ## Success criteria
 

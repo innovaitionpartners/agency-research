@@ -75,14 +75,14 @@
 - Consumes: Passing runtime and evaluation evidence.
 - Produces: Two local commits and a no-deploy approval brief.
 
-- [ ] **Step 1:** Add a pending external-skill entry to `CATALOG.md` and maintenance-sidecar entry to `_skills-index.md`.
+- [ ] **Step 1:** Add a private standalone-product entry to `CATALOG.md` and maintenance-sidecar entry to `_skills-index.md`.
 - [ ] **Step 2:** Record the runtime commit SHA and evaluation status in `research-with-receipts/AGENTS.md`.
 - [ ] **Step 3:** Commit runtime changes on `codex/research-with-receipts` and sidecar/catalog changes on the current isolated `12_Skills` worktree.
 - [ ] **Step 4:** Verify both worktrees are clean and report exact paths, branches, commits, tests, and the maintainer action required. Do not push or merge.
 
 ### Post-deploy Ultra hardening
 
-Approved after the initial public deployment:
+Previously contemplated after an initial public deployment; superseded by the decision to keep the product private:
 
 - Replace sibling-skill naming with capability-only routing.
 - Add a staged Deep Research Frame and approval gate, with an explicit advance-authorization bypass.
