@@ -1,5 +1,7 @@
 # Research With Receipts Implementation Plan
 
+Historical implementation plan. Public distribution was authorized on 2026-09-25; see the README for current installation and licensing.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Build and behaviorally validate a portable adaptive-research skill with an invariant claim-adjacent receipts contract.
@@ -24,8 +26,8 @@
 ### Task 1: Scaffold the runtime skill
 
 **Files:**
-- Create: `/Users/sally/.codex/worktrees/research-with-receipts/research-with-receipts/SKILL.md`
-- Create: `/Users/sally/.codex/worktrees/research-with-receipts/research-with-receipts/agents/openai.yaml`
+- Create: `skills/research-with-receipts/SKILL.md`
+- Create: `skills/research-with-receipts/agents/openai.yaml`
 
 **Interfaces:**
 - Consumes: Approved design specification.
@@ -52,7 +54,7 @@
 ### Task 3: Run quality gates and iterate
 
 **Files:**
-- Modify if failures justify it: `/Users/sally/.codex/worktrees/research-with-receipts/research-with-receipts/SKILL.md`
+- Modify if failures justify it: `skills/research-with-receipts/SKILL.md`
 - Record: `research-with-receipts/tests/eval-results.md`
 
 **Interfaces:**
