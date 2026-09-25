@@ -20,7 +20,6 @@ Agency Research is an InnovAItion Partners plugin for readable, source-verified 
 
 - **[Download the skill ZIP](https://github.com/innovaitionpartners/agency-research/releases/latest/download/research-with-receipts.zip)** for skill upload or manual installation.
 - **[Download the Claude plugin ZIP](https://github.com/innovaitionpartners/agency-research/releases/latest/download/agency-research-plugin.zip)** for plugin installation.
-- [All releases and SHA-256 checksums](https://github.com/innovaitionpartners/agency-research/releases/latest).
 
 For Claude Cowork, upload `research-with-receipts.zip` through its skill settings. For Claude Code or Codex, extract the skill ZIP and copy the enclosed `research-with-receipts` folder into your skill directory (`~/.claude/skills/` or `~/.agents/skills/`). Restart or refresh the host to discover the skill.
 
