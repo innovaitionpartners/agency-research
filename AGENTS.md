@@ -8,14 +8,15 @@ This public repository is the source of truth for the open-source **Agency Resea
 - Product name: **Agency Research**.
 - First bundled skill: `research-with-receipts`.
 - Preserve the skill's frontmatter description unless a deliberate trigger redesign is approved.
-- This is a standalone open-source product, not Sally's personal research skill. Do not install or symlink it into `~/.agents/skills/` or `~/.codex/skills/` for routine development.
+- This is a standalone open-source product. Do not install or symlink it into `~/.agents/skills/` or `~/.codex/skills/` for routine development.
 - Test through an explicit repository path, `claude --plugin-dir`, a temporary plugin profile, or a fresh-context evaluator.
 
 ## Runtime and maintenance separation
 
 - Runtime skill files live under `skills/<skill-name>/`.
 - Behavioral evals and deterministic fixtures live at repository root under `evals/` and `tests/`.
-- Maintainer lessons and product specifications live under `docs/`.
+- Internal plans, maintainer lessons, and historical evaluation results live outside this public repository. Keep reusable eval definitions and synthetic test fixtures public.
+- Before publishing, review all tracked files and history as well as ZIP contents. Excluding a file from a ZIP does not exclude it from the repository; `.gitignore` does not untrack committed files.
 - Generated caches, temporary ledgers, reports, and packaged ZIPs do not belong in source control.
 
 ## Research output rule
