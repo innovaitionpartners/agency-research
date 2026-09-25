@@ -1,5 +1,9 @@
 # Research With Receipts Eval Results
 
+## 2026-09-25 — Public release packaging
+
+Authorized public MIT release v0.1.1. Runtime skill files are unchanged. Skill and plugin validation and the full deterministic fixture suite pass. Both release ZIPs pass extraction and packaged-validator smoke checks, and repeat builds produce identical SHA-256 hashes. Historical behavioral evaluations below remain the evidence for the unchanged research behavior; no new live research evaluation was run for this packaging release.
+
 ## 2026-08-28 — Agency Research standalone plugin migration
 
 Research With Receipts moved from the shared always-on InnovAItion Partners skill registry into the standalone private `agency-research` repository. The plugin is not approved for public release or external distribution. The skill description was preserved exactly, while internal `answer slots` terminology became a flexible `coverage plan` that follows the requested deliverable rather than forcing reports into question-and-answer form. Claude and Codex plugin manifests validate, Skill Creator validation passes, and the complete deterministic fixture suite passes from repository-local paths. The active copies were removed from Sally's Claude, Codex, and Agent skill registries; maintainers test through an explicit path or isolated plugin session.

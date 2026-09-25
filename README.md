@@ -1,4 +1,4 @@
-# Agency Research
+# Research With Receipts
 
 Agency Research is an InnovAItion Partners plugin for readable, source-verified public-web research. Its first bundled skill, **Research With Receipts**, supports quick checks, standard briefs, and deep reports while keeping citations beside the claims they support.
 
@@ -16,7 +16,21 @@ Agency Research is an InnovAItion Partners plugin for readable, source-verified 
 
 - `research-with-receipts` — adaptive public-web research with claim-adjacent, parenthetical receipts.
 
-The skill's trigger description is intentionally broad for isolated product testing. Maintainers should test from this repository or an isolated plugin session rather than installing it in a personal always-on skill registry.
+## Download and install
+
+- **[Download the skill ZIP](https://github.com/innovaitionpartners/agency-research/releases/latest/download/research-with-receipts.zip)** for skill upload or manual installation.
+- **[Download the Claude plugin ZIP](https://github.com/innovaitionpartners/agency-research/releases/latest/download/agency-research-plugin.zip)** for plugin installation.
+- [All releases and SHA-256 checksums](https://github.com/innovaitionpartners/agency-research/releases/latest).
+
+For Claude Cowork, upload `research-with-receipts.zip` through its skill settings. For Claude Code or Codex, extract the skill ZIP and copy the enclosed `research-with-receipts` folder into your skill directory (`~/.claude/skills/` or `~/.agents/skills/`). Restart or refresh the host to discover the skill.
+
+To try the plugin in Claude Code, extract the plugin ZIP and run `claude --plugin-dir /absolute/path/to/extracted-plugin`. The repository also includes Codex plugin metadata; the skill ZIP provides a direct manual-install option for Codex.
+
+Requires an agent host with live web search, page retrieval, filesystem access, and Python 3. Bundled validators use only the Python standard library. The skill needs no API keys of its own; host subscriptions and web-tool access are separate. Browser automation and parallel agents are optional capabilities.
+
+Try: “Use Research With Receipts to compare these three options using current public evidence.” Choose a Quick scan, Standard brief, or Deep report when prompted.
+
+The validators check source records, citation formatting, and report structure. They cannot prove that a source is truthful or that it supports a claim; the researching agent must inspect the evidence.
 
 ## Local testing
 
@@ -48,6 +62,10 @@ agency-research/
   docs/
 ```
 
-## Controlled packaging
+## Build release packages
 
-Use `python3 scripts/package_plugin.py` to create `dist/agency-research.zip` for private testing or a specifically approved controlled deployment. The package contains the dual-platform manifests, README, and runtime skill only; maintenance docs, tests, and build tooling stay in the repository. This repository and its packages are not approved for public release or external distribution.
+Run `python3 scripts/package_plugin.py` to create deterministic, versioned ZIPs and stable download aliases in `dist/`, plus `SHA256SUMS.txt`. Packages include the runtime and MIT license. Maintenance docs, tests, and build tooling stay in the repository.
+
+## License
+
+[MIT](LICENSE). Copyright 2026 InnovAItion Partners.
