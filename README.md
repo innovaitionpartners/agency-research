@@ -59,12 +59,11 @@ agency-research/
   skills/research-with-receipts/
   evals/
   tests/
-  docs/
 ```
 
 ## Build release packages
 
-Run `python3 scripts/package_plugin.py` to create deterministic, versioned ZIPs and stable download aliases in `dist/`, plus `SHA256SUMS.txt`. Packages include the runtime and MIT license. Maintenance docs, tests, and build tooling stay in the repository.
+Run `python3 scripts/package_plugin.py` to create deterministic, versioned ZIPs and stable download aliases in `dist/`, plus `SHA256SUMS.txt`. Packages include the runtime and MIT license. Reusable tests and build tooling stay in the repository. Internal planning notes and evaluation run history are excluded from public source.
 
 ## License
 

@@ -1,7 +1,35 @@
+# OS, editor, and Python caches
 .DS_Store
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .ruff_cache/
 .venv/
-dist/
+.vscode/
+.idea/
+
+# Credentials and local agent settings
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+.codex/config.local.toml
+
+# Generated output and release packages
+/dist/
+/output/
+/outputs/
+/reports/
+/runs/
+/tmp/
+*.zip
+*.log
+
+# Internal planning, maintainer notes, and evaluation run history
+/docs/superpowers/
+/docs/solutions/
+/tests/eval-results.md
+/evals/results/
+/evals/runs/
+process_notes.md
+feedback-log.md
